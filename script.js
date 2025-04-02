@@ -7,13 +7,13 @@ document.addEventListener('DOMContentLoaded' function(){
         tamanhoaAtualFonte += 0.1;
         document.body.style.fontsize = '${tamanhoAtualFonte}rem'
    
-    })
+    });
 
     diminuiFonteBotao.addEventListener('click', function(){
         tamanhoaAtualFonte -= 0.1;
         document.body.style.fontsize = '${tamanhoAtualFonte}rem'
         
-    })
-})
+    });
+});
         
     
